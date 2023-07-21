@@ -1,0 +1,17 @@
+var names = [
+    "Alexandria",
+    "Matthew",
+    "Joe"
+]
+
+var every = names.every(function(name){
+    return name.length>4
+})
+
+
+var some = names.some(function(name){
+    return name.length>4
+})
+
+console.log(every)
+console.log(some)
