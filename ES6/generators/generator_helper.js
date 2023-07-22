@@ -20,4 +20,4 @@ function* shopping()
 const gen =  shopping()
 gen.next() // leaving our house
 
-gen .next('groceries') // leaving the store with groceries.
+gen.next('groceries') // leaving the store with groceries.

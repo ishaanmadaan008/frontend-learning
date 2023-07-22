@@ -27,7 +27,5 @@ const companies_dict =[
 
 ]
 
+const { locations : [ location ] }=  companies_dict
 
-const [ { location }, ...{ location1 }] = companies
-
-console.log(location1 )
